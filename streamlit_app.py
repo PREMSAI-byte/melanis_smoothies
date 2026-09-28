@@ -40,7 +40,6 @@ if ingredients_list:
 import requests
 
 smoothiefruit_response = requests.get(
-    "https://my.smoothiefoot.com/api/fruit/watermelon"
-)
+https://www.smoothiefroot.com/api/fruit/watermelon)
 
 st.text(smoothiefruit_response)

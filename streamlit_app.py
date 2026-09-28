@@ -42,4 +42,4 @@ import requests
 smoothiefruit_response = requests.get(
 "https://www.smoothiefroot.com/api/fruit/watermelon")
 
-st.text(smoothiefruit_response.json()
+st.text(smoothiefruit_response.json())
